@@ -1,0 +1,131 @@
+﻿/*************************
+*******login page CSS******
+**************************/
+
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+.register {
+    margin-top: 10px;
+}
+.validation-summary-errors ul{
+    list-style: none;
+    padding: 0;
+}
+.validation-summary-errors li {
+    background-color: rgb(245, 147, 147);
+    border: 1px solid rgb(242, 71, 71);
+    padding: 5px;
+    margin: 2px;
+}
+
+#form {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: hidden;    
+}
+
+.login-form h2, .signup-form h2 {
+    color: #696763;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+.login-form form, .signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form input, .signup-form form input {
+    background: #F0F0E9;
+    border: medium none;    
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+}
+.phone-input {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.phone-input select {
+    margin-bottom: 10px;
+    border: medium none;
+    margin-right: 5px;
+    background: #F0F0E9;
+}
+.ui-selectmenu-button {
+    margin-bottom: 10px;
+    border: medium none;
+    margin-right: 5px;
+    background: #F0F0E9;
+    padding-top: 10px;
+    /* line-height: 100%; */
+}
+
+.login-form form span {
+    line-height: 25px;
+}
+
+.login-form form span input {
+    width: 15px;
+    float: left;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+.login-form form button, .signup-form form button {
+    border: medium none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px 25px;
+    align-self: center;
+}
+
+
+.login-form label input {
+    border: medium none;
+    display: inline-block;
+    height: 0;
+    margin-bottom: 0;
+    outline: medium none;
+    padding-left: 0;
+}
+
+
+.or {
+    background: rgb(245,245,245);
+    border-radius: 40px;
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+    margin: 35px auto;
+    text-align: center;
+    width: 70px;
+}
+
+.create-new {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+    .create-new {
+        display: flex;
+        justify-content: center;
+    }
+}

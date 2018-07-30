@@ -1,0 +1,155 @@
+﻿/*************************
+*******Cart CSS******
+**************************/
+
+.cart_info {
+    border: 1px solid #E6E4DF;
+    border-radius: 5px;
+}
+.page-content-wrapper {
+    min-width: 700px;
+}
+
+.cart_info .cart_menu {
+    /*background: rgb(22, 56, 43);*/
+    background: lavender;
+    color: #6c757d;
+    font-size: 16px;
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: normal;
+}
+
+.cart_info .table.table-sm thead tr {
+    height: 51px;
+}
+
+
+.cart_info .table.table-sm tr {
+    border-bottom: 1px solid#F7F7F0
+}
+
+.cart_info .table.table-sm tr:last-child {
+    border-bottom: 0;
+}
+
+.cart_info table tr td {
+    border-top: 0 none;
+    vertical-align: inherit;
+}
+
+
+.cart_info .image {
+    padding-left: 30px;
+}
+
+
+.cart_info .cart_description h4 {
+    margin-bottom: 0
+}
+
+   .cart_info .cart_description h4 a {
+        color: #363432;
+        font-family: 'Roboto',sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+.cart_info .cart_description p {
+    color: #696763
+}
+
+
+.cart_info .cart_price p {
+    color: #696763;
+    font-size: 18px
+}
+
+
+.cart_info .cart_total_price {
+    color: #FE980F;
+    font-size: 24px;
+}
+
+.cart_product {
+    display: block;
+}
+
+.cart_product img {
+    max-width: 100px;
+
+}
+
+.cart_delete {
+    display: block;
+    overflow: hidden;
+}
+
+
+.cart_delete a {
+    background: #F0F0E9;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    font-size: 16px
+}
+
+.cart_delete a:hover {
+    background: red;
+}
+
+
+.bg h2.title {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.total_area {
+    border: 1px solid #E6E4DF;
+    border-radius: 5px;
+}
+
+.total_area span {
+    float: right;
+}
+
+.total_area ul li {
+    color: #696763;
+    margin-top: 10px;
+    padding: 7px 20px;
+}
+
+
+.chose_area .update {
+    margin-left: 40px;
+}
+
+.update, .check_out {
+    background: #FE980F;
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.update {
+    margin-left: 40px;
+}
+
+.check_out {
+    margin-left: 20px
+}   
+
+/*[ Input NumProduct ]
+///////////////////////////////////////////////////////////
+*/
+input.num-product {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+input.num-product::-webkit-outer-spin-button,
+input.num-product::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
